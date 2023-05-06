@@ -1,2 +1,7 @@
 from src.DogCat import logging
-logging.info("welcome to my youtube channel")
+a = 2
+b = 0 
+try :
+    c = a/0
+except Exception as e :
+    logging.info(e)
